@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>From Zero to Secure — Gary Holden Schneider</title>
+<meta name="description" content="From Zero to Secure — a free beginner-to-practitioner security guide by Gary Holden Schneider. Read online or download.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="books.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a href="index.html" class="brand"><span class="dot"></span><span class="back">← Gary Holden Schneider</span></a>
+    <div class="navlinks">
+      <a href="index.html">Portfolio</a>
+      <a href="index.html#library">Library</a>
+      <a href="metasploit-armitage-red-team.html">Metasploit &amp; Armitage</a>
+      <a href="metasploit-red-team-bible.html">Red Team Bible</a>
+    </div>
+  </div>
+</nav>
+
+<header class="book">
+  <div class="wrap bookhero">
+    <div class="cover reveal">
+      <div class="series">Free Field Guide</div>
+      <div class="ct">From Zero<br><span class="g">to Secure</span></div>
+      <div class="glyph">0&gt;</div>
+      <div>
+        <div class="cmeta">Beginner → Practitioner</div>
+        <div class="author">Gary Holden Schneider</div>
+      </div>
+    </div>
+    <div class="info">
+      <div class="status free reveal"><span class="pulse"></span>FREE · READ OR DOWNLOAD</div>
+      <h1 class="title reveal">From Zero <span class="g">to Secure</span></h1>
+      <div class="subtitle reveal">From security fundamentals to hands-on skills — a complete beginner's path.</div>
+      <p class="blurb reveal">A beginner-to-practitioner guide that walks readers from the <b style="color:var(--text)">absolute basics of security</b> all the way to real, hands-on skills. No prior experience assumed — just a clear, steady path from "where do I start?" to "I can actually do this."</p>
+      <div class="hcta reveal">
+        <a class="btn primary" href="from-zero-to-secure.pdf" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M4 4h13l3 3v13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1zm2 4v2h9V8H6zm0 4v2h9v-2H6zm0 4v2h6v-2H6z"/></svg>
+          Read online
+        </a>
+        <a class="btn" href="from-zero-to-secure.pdf" download>
+          <svg viewBox="0 0 24 24"><path d="M12 16l-5-5h3V4h4v7h3l-5 5zm-7 2h14v2H5v-2z"/></svg>
+          Download PDF
+        </a>
+      </div>
+      <div class="note reveal">Free and open — no signup, no paywall.</div>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="num mono">01.</span><h2>About the Guide</h2><span class="rule"></span></div>
+    <p class="lead reveal">Most security resources assume you already know the jargon. <b>From Zero to Secure</b> doesn't. It starts at the very beginning — what security actually means, why it matters, and how the pieces fit together — then builds, chapter by chapter, into the practical skills you need to start doing the work. It's the guide I wish I'd had on day one.</p>
+  </div>
+</section>
+
+<section id="inside">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="num mono">02.</span><h2>What You'll Learn</h2><span class="rule"></span></div>
+    <div class="grid c3">
+      <div class="card reveal"><h3>Security fundamentals</h3><p>The core ideas — the CIA triad, threats vs. vulnerabilities, and how to think like a defender and an attacker.</p></div>
+      <div class="card reveal"><h3>Build your first lab</h3><p>Stand up a safe, legal practice environment so every skill you learn has somewhere to run.</p></div>
+      <div class="card reveal"><h3>Networking essentials</h3><p>TCP/IP, DNS, and the moving parts you need to understand before you can secure or test anything.</p></div>
+      <div class="card reveal"><h3>Hands-on tooling</h3><p>A gentle first pass at the tools of the trade — used carefully, in your own lab, the right way.</p></div>
+      <div class="card reveal"><h3>Good habits &amp; OpSec</h3><p>The mindset and discipline that separate a hobbyist from a professional from day one.</p></div>
+      <div class="card reveal"><h3>Where to go next</h3><p>A clear on-ramp into deeper topics — and into the rest of this library.</p></div>
+    </div>
+    <p class="note reveal" style="margin-top:16px">Outline is representative — the full guide is in the PDF.</p>
+  </div>
+</section>
+
+<section id="get">
+  <div class="wrap">
+    <div class="callout free reveal">
+      <h3>Read it free</h3>
+      <p>From Zero to Secure is completely free to read online or download. If it helps you get started, that's the whole point.</p>
+      <div class="hcta">
+        <a class="btn primary" href="from-zero-to-secure.pdf" target="_blank" rel="noopener">Read online</a>
+        <a class="btn" href="from-zero-to-secure.pdf" download>Download PDF</a>
+        <a class="btn ghost" href="index.html#library">← Back to Library</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span class="mono">© 2026 Gary Holden Schneider · From Zero to Secure</span>
+    <a class="home" href="index.html">← gnosisone.github.io</a>
+  </div>
+</footer>
+
+<script>
+  (function(){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(function(n){io.observe(n);});})();
+</script>
+</body>
+</html>

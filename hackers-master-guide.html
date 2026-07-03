@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Hacker's Master Guide — Gary Holden Schneider</title>
+<meta name="description" content="The Hacker's Master Guide — a 7-volume, 143,000-word purple-team security field manual by Gary Holden Schneider. Coming to Kickstarter.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="books.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a href="index.html" class="brand"><span class="dot"></span><span class="back">← Gary Holden Schneider</span></a>
+    <div class="navlinks">
+      <a href="index.html">Portfolio</a>
+      <a href="index.html#library">Library</a>
+      <a href="opsec-master-guide.html">OpSec Guide</a>
+    </div>
+  </div>
+</nav>
+
+<header class="book">
+  <div class="wrap bookhero">
+    <div class="cover reveal">
+      <div class="series">The Master Series · Vol. I–VII</div>
+      <div class="ct">The Hacker's<br><span class="g">Master Guide</span></div>
+      <div class="glyph">&gt;_</div>
+      <div>
+        <div class="cmeta">7 Volumes · 53 Chapters · ~143,000 words</div>
+        <div class="author">Gary Holden Schneider</div>
+      </div>
+    </div>
+    <div class="info">
+      <div class="status reveal"><span class="pulse"></span>KICKSTARTER · COMING SOON</div>
+      <h1 class="title reveal">The Hacker's <span class="g">Master Guide</span></h1>
+      <div class="subtitle reveal">A purple-team field manual — offensive &amp; defensive security operations, end to end.</div>
+      <p class="blurb reveal">The flagship of the series: a <b style="color:var(--text)">seven-volume, ~143,000-word</b> technical reference spanning 53 chapters — from reconnaissance and exploitation to detection, evasion, and defense. It's the same knowledge corpus that powers <b style="color:var(--text)">ERR0RS-Ultimate</b>, rewritten and expanded into a complete, teach-yourself operator's education.</p>
+      <div class="hcta reveal">
+        <a class="btn primary" href="#notify" id="ksBtn">
+          <svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 3 -1 5 -2 6h18c-1-1-2-3-2-6a7 7 0 0 0-7-7zm0 20a3 3 0 0 0 3-3H9a3 3 0 0 0 3 3z"/></svg>
+          Notify me on Kickstarter
+        </a>
+        <a class="btn ghost" href="index.html#library">← Back to Library</a>
+      </div>
+      <div class="note reveal">Campaign link goes live here the moment the Kickstarter pre-launch page is up.</div>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="num mono">01.</span><h2>About the Guide</h2><span class="rule"></span></div>
+    <p class="lead reveal">Most security books teach one side — attack <i>or</i> defense. The Hacker's Master Guide teaches <b>both</b>, in the order an operator actually learns them, so every offensive technique is paired with the detection and defensive counter that follows it. It's written to be read cover to cover <b>or</b> used as a lab-side reference, and every concept is grounded in tools you can run today on Kali, Parrot, or BlackArch.</p>
+  </div>
+</section>
+
+<section id="inside">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="num mono">02.</span><h2>What's Inside</h2><span class="rule"></span></div>
+    <p class="lead reveal" style="margin-bottom:24px">Across its seven volumes, the guide covers:</p>
+    <div class="grid c3">
+      <div class="card reveal"><h3><span class="n mono">I</span>Recon &amp; Enumeration</h3><p>Passive and active reconnaissance, OSINT, scanning, and service enumeration — building the target picture before you touch a thing.</p></div>
+      <div class="card reveal"><h3><span class="n mono">II</span>Web &amp; App Exploitation</h3><p>The OWASP landscape in depth — injection, auth flaws, XSS, SSRF — with hands-on methodology drawn from real challenge sets.</p></div>
+      <div class="card reveal"><h3><span class="n mono">III</span>Exploitation &amp; Payloads</h3><p>From vulnerability to foothold: exploit workflows, payload crafting, and safe, lab-scoped delivery.</p></div>
+      <div class="card reveal"><h3><span class="n mono">IV</span>Post-Exploitation &amp; AD</h3><p>Privilege escalation, lateral movement, and Active Directory attack paths — plus the artifacts they leave behind.</p></div>
+      <div class="card reveal"><h3><span class="n mono">V</span>Evasion &amp; OpSec</h3><p>Living-off-the-land, obfuscation, and operational security mapped to modern MITRE ATT&amp;CK tradecraft.</p></div>
+      <div class="card reveal"><h3><span class="n mono">VI</span>Detection &amp; Defense</h3><p>The blue-team half: logging, EDR, SIEM, and how each attack in the book is caught and stopped.</p></div>
+      <div class="card reveal"><h3><span class="n mono">VII</span>Tooling, Automation &amp; Reporting</h3><p>Scripting your workflow in Python and Bash, and turning findings into professional, repeatable reports.</p></div>
+      <div class="card reveal" style="border-color:var(--green-dim)"><h3 style="color:var(--green)">+ Labs &amp; Missions</h3><p>Guided, authorized-only exercises throughout — the practical backbone that ERR0RS-Ultimate turns into interactive missions.</p></div>
+    </div>
+    <p class="note reveal" style="margin-top:16px">Volume outline is representative — send me your final table of contents and I'll drop it in exactly.</p>
+  </div>
+</section>
+
+<section id="who">
+  <div class="wrap">
+    <div class="sec-head reveal"><span class="num mono">03.</span><h2>Who It's For</h2><span class="rule"></span></div>
+    <div class="grid c3">
+      <div class="card reveal"><h3>Students &amp; career-changers</h3><p>A structured path into offensive security that doesn't assume you already speak the language.</p></div>
+      <div class="card reveal"><h3>Aspiring pentesters</h3><p>The methodology, tooling, and OpSec habits that separate a script-runner from an operator.</p></div>
+      <div class="card reveal"><h3>Blue teamers</h3><p>See the attacks the way attackers do — so you can detect and defend against them for real.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="notify">
+  <div class="wrap">
+    <div class="callout reveal">
+      <h3>Back it on Kickstarter</h3>
+      <p>The Hacker's Master Guide is launching as a Kickstarter campaign. The full guide won't be posted publicly — backing the campaign is how you'll get it. Drop your Kickstarter (or pre-launch) link to me and this button goes live.</p>
+      <div class="hcta">
+        <a class="btn primary" href="#" aria-disabled="true">Notify me on Kickstarter — coming soon</a>
+        <a class="btn ghost" href="opsec-master-guide.html">See the OpSec Master Guide →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span class="mono">© 2026 Gary Holden Schneider · The Hacker's Master Guide</span>
+    <a class="home" href="index.html">← gnosisone.github.io</a>
+  </div>
+</footer>
+
+<script>
+  (function(){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(function(n){io.observe(n);});})();
+</script>
+</body>
+</html>
